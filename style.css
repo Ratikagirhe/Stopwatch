@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+.time-box {
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.time {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.control {
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+#stop {
+    background-color: red;
+    color: white;
+}
+
+#start {
+    background-color: green;
+    color: white;
+}
+
+#reset {
+    background-color: blue;
+    color: white;
+}
+
+.control:hover {
+    opacity: 0.8;
+}
